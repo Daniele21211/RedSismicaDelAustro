@@ -1,0 +1,61 @@
+Informe Técnico: Selección de Aleación para el Elongámetro
+1. Contexto del diseño
+
+El elongámetro será utilizado para la medición de deformaciones diferenciales en micras, en un ambiente húmedo y de posible exposición a agentes corrosivos. El sistema empleará galgas extensiométricas de resistencia, lo que exige que la barra soporte pequeñas deformaciones sin plastificarse y que presente estabilidad a largo plazo.
+
+2. Requisitos principales de la aleación
+
+Sensibilidad adecuada a la deformación: material con módulo de elasticidad que permita detectar variaciones en el orden de micras.
+
+Estabilidad térmica: bajo coeficiente de expansión térmica para reducir errores por temperatura.
+
+Resistencia a la corrosión: adecuada para ambientes húmedos.
+
+Resistencia mecánica: suficiente para evitar plastificación en cargas repetitivas.
+
+Compatibilidad con galgas extensiométricas: superficie que facilite la adhesión estable del sensor.
+
+3. Opciones de materiales analizadas
+
+Acero inoxidable (AISI 304 / 316)
+
+Excelente resistencia a la corrosión.
+
+Alta resistencia mecánica.
+
+Inconveniente: menor sensibilidad a microdeformaciones debido a su alto módulo de elasticidad.
+
+Aleación aluminio 7075-T6
+
+Alta relación resistencia/peso.
+
+Mayor deformación elástica relativa, buena para galgas.
+
+Problema: baja resistencia a la corrosión en ambientes húmedos sin recubrimiento.
+
+Aleación cobre-níquel (Constantán / Cu-Ni 55-45)
+
+Alta estabilidad y muy bajo coeficiente de expansión térmica.
+
+Buena resistencia a la corrosión en ambientes húmedos.
+
+Utilizada tradicionalmente en galgas extensiométricas como material patrón.
+
+Excelente linealidad para medir microdeformaciones.
+
+4. Selección recomendada
+
+Tras el análisis, la aleación cobre-níquel (Constantán) se considera la opción más adecuada para la barra del elongámetro, debido a:
+
+Estabilidad dimensional en condiciones ambientales cambiantes.
+
+Resistencia a la corrosión superior frente a aluminio.
+
+Mayor sensibilidad frente a aceros inoxidables.
+
+Uso probado en instrumentación de precisión con galgas extensiométricas.
+
+5. Conclusión
+
+Se recomienda fabricar la barra del elongámetro en aleación cobre-níquel (Constantán, Cu-Ni 55/45).
+Este material garantiza confiabilidad en mediciones en el rango de micras, durabilidad en ambientes húmedos y compatibilidad óptima con las galgas extensiométricas de resistencia.
