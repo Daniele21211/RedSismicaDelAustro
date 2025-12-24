@@ -22,5 +22,5 @@ Segunda versión del diseño del piezómetro.
 
 \## Estado
 
-\- En desarrollo
+\- Completo
 
