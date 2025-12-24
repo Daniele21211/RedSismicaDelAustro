@@ -1,0 +1,13 @@
+# KiCad backups y temporales
+*-backups/
+*.bak
+*.tmp
+*.zip
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.autosave
