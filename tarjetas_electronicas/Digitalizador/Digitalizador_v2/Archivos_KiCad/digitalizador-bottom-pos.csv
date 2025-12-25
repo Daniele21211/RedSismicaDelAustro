@@ -1,0 +1,9 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"IC9","~","PinHeader_1x04_P2.54mm_Vertical",109.200000,20.320000,180.000000,bottom
+"J1","~","PinHeader_2x10_P2.54mm_Vertical",6.700000,97.300000,180.000000,bottom
+"J2","~","PinHeader_2x20_P2.54mm_Vertical",123.360000,9.540000,0.000000,bottom
+"P1","~","PinHeader_1x06_P2.54mm_Vertical",45.680000,5.300000,-90.000000,bottom
+"P2","~","PinHeader_1x06_P2.54mm_Vertical",22.180000,63.900000,90.000000,bottom
+"P3","~","PinHeader_1x08_P2.54mm_Vertical",34.840000,5.300000,90.000000,bottom
+"P4","~","Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical",15.300000,85.920000,90.000000,bottom
+"P5","~","Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical",15.400000,72.680000,90.000000,bottom
