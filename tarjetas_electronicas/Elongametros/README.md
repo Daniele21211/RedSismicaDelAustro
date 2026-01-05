@@ -1,39 +1,37 @@
-# Elongómetros
+# Elongómetro – Revisión Técnica de Diseño (Ítem 30)
 
-## Descripción general
-Esta carpeta contiene el diseño de la tarjeta electrónica de los **Elongómetros**, desarrollado para el sistema de la Red Sísmica del Austro.
+Este directorio contiene la documentación técnica asociada a la revisión del diseño electrónico
+(esquemático y PCB) del módulo Elongómetro del proyecto RSA.
 
-El diseño electrónico se ha realizado utilizando **KiCad** y contempla los archivos necesarios para análisis, revisión técnica, fabricación y ensamblaje del PCB.
+## Alcance de la revisión
+La revisión se realizó sobre los archivos de diseño desarrollados en KiCad e incluyó:
+- Análisis de arquitectura electrónica y conectividad.
+- Verificación frente a las Especificaciones Técnicas Generales y Particulares del ítem 30.
+- Evaluación de criterios básicos de compatibilidad electromagnética (EMC).
+- Revisión de interfaces de comunicación (RS485, USB para flasheo).
+- Revisión de elementos de diagnóstico (LEDs, test pins).
+- Análisis crítico del sistema de medición basado en galgas extensométricas.
 
----
+## Aspectos críticos identificados
+- La función crítica del equipo corresponde al conjunto micromecánico y a la medición de galgas extensométricas en configuración de puente de Wheatstone.
+- No se evidencia de forma explícita el cierre del puente de Wheatstone mediante resistencias de precisión en la tarjeta, ni se documenta la configuración real del puente (¼, ½ o completo).
+- No se definen deformaciones máximas admisibles del elemento mecánico sensible (lámina metálica flexionada).
+- No se documentan pruebas experimentales de capacidad de medición (carga–deformación, linealidad, histéresis, repetibilidad).
+- No se evidencian mediciones ni compensaciones ambientales completas (temperatura, presión u otras).
+- Se establece la necesidad de operación en ambiente controlado y cerrado, con compensación térmica activa.
+- No se evidencia el uso de conectores M12 ni la configuración completa del bus RS485 (terminación y polarización seleccionables).
+- No se evidencia protección ESD dedicada para el puerto USB.
 
-## Contenido de la carpeta
+## Documentos incluidos
+- Nota técnica de revisión del diseño.
+- Recomendaciones Técnicas EMC.
 
-### Archivos_KiCad
-- `.kicad_pro`: archivo principal del proyecto
-- `.kicad_sch`: esquemáticos eléctricos
-- `.kicad_pcb`: diseño de la placa PCB
+## Alcance y limitaciones
+La documentación contenida en este directorio corresponde exclusivamente a una revisión técnica
+de diseño. No constituye aprobación, aceptación técnica ni validación funcional del equipo.
+No existen evidencias de:
+- pruebas de laboratorio,
+- ensayos con prototipos físicos,
+- operación del sistema completo integrando hardware, firmware y software.
 
-### BOM (Bill of Materials)
-- Listado de componentes electrónicos utilizados en el diseño
-
-### Gerbers
-- Archivos de fabricación para la producción del PCB
-
-### Esquemático
-- Archivos PDF de conexiones de la PCB
-
-### PCB
-- Fotografías de la PCB (top y bottom)
-
----
-
-## Versiones
-Las versiones del diseño se organizan en subcarpetas (v1, v2, etc.).  
-La **última versión válida para revisión técnica** es la **v2**.
-
----
-
-## Nota para revisión
-Para efectos de revisión técnica, se deberán considerar **únicamente** los archivos fuente generados en **KiCad** (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`).  
-Los archivos PDF, imágenes y Gerbers se consideran derivados y no forman parte de la revisión del diseño.
+En ausencia de dichas evidencias, el diseño debe considerarse como una propuesta técnica en etapa de revisión.
