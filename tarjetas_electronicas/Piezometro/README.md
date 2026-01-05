@@ -1,39 +1,33 @@
-# Piezómetro
+# Revisión Técnica – Módulo Piezómetro
 
-## Descripción general
-Esta carpeta contiene el diseño de la tarjeta electrónica del **Piezómetro**, desarrollado para el sistema de la Red Sísmica del Austro.
+Este directorio contiene la documentación técnica asociada a la revisión del diseño electrónico
+(esquemático y PCB) del módulo **Piezómetro**, desarrollada sobre archivos KiCad.
 
-El diseño electrónico se ha realizado utilizando **KiCad** y contempla los archivos necesarios para análisis, revisión técnica, fabricación y ensamblaje del PCB.
+## Alcance de la revisión
+La revisión se realizó sobre la **versión 2** del diseño y comprende:
+- Análisis técnico de compatibilidad electromagnética (EMC).
+- Verificación del cumplimiento de las **Recomendaciones Técnicas EMC v1**.
+- Contraste documental con las **Especificaciones Técnicas Particulares** aplicables
+  (ítem 66 como principal e ítem 31 como parte del equipo).
+- Evaluación de criterios de verificabilidad (puntos de prueba, señalización, interfaces).
 
----
+## Documentos incluidos
+- **Recoemdaciones Técnicas V1**
+  Bajado del commit correspondiente para tenerlo como referencia.
+- **Recomendaciones Técnicas EMC – Piezómetro v2**  
+  Documento técnico que identifica observaciones EMC, verifica el cumplimiento de la versión v1
+  y propone medidas de mejora. No constituye aprobación ni validación funcional del diseño.
 
-## Contenido de la carpeta
+- **Nota técnica – Piezómetro v2**  
+  Documento de carácter técnico–administrativo que resume el estado de cumplimiento del diseño
+  frente a las recomendaciones previas y a las especificaciones técnicas contractuales, como
+  respaldo para la toma de decisiones administrativas.
 
-### Archivos_KiCad
-- `.kicad_pro`: archivo principal del proyecto
-- `.kicad_sch`: esquemáticos eléctricos
-- `.kicad_pcb`: diseño de la placa PCB
+## Alcance y limitaciones
+Las revisiones se basan exclusivamente en la documentación disponible (esquemático y PCB KiCad).
+No incluyen pruebas de laboratorio, ensayos EMC, validación funcional ni integración completa
+hardware–firmware–software.
 
-### BOM (Bill of Materials)
-- Listado de componentes electrónicos utilizados en el diseño
-
-### Gerbers
-- Archivos de fabricación para la producción del PCB
-
-### Esquemático
-- Archivos PDF de conexiones de la PCB
-
-### PCB
-- Fotografías de la PCB (top y bottom)
-
----
-
-## Versiones
-Las versiones del diseño se organizan en subcarpetas (v1, v2, etc.).  
-La **última versión válida para revisión técnica** es la **v2**.
-
----
-
-## Nota para revisión
-Para efectos de revisión técnica, se deberán considerar **únicamente** los archivos fuente generados en **KiCad** (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`).  
-Los archivos PDF, imágenes y Gerbers se consideran derivados y no forman parte de la revisión del diseño.
+## Estado
+Revisión documental cerrada para la versión analizada del diseño.
+Cualquier modificación posterior deberá ser evaluada mediante una nueva versión de los documentos.
