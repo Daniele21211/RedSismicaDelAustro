@@ -22,4 +22,16 @@ Hoy se realizó el envío de un conjunto de placas. Dos placas fueron enviadas *
 
 ## Notas
 - La documentación del envío (tracking/guía, packing list y fotos de evidencia) debe almacenarse en esta carpeta.
-- Cualquier entrega posterior de firmware (código fuente + binarios compilados + guía de programación) debe referenciarse en las subcarpetas correspondientes del proyecto.
+
+**Paquete / Waybill DHL:** 7023863744  
+**Ubicación:** Guayaquil – Ecuador  
+**Propósito:** Respaldo documental del proceso y pagos asociados a la gestión/aduana del envío.
+
+## Archivos incluidos
+- **DS_7023863744.pdf**: Documento asociado al proceso/gestión del envío (DHL).
+- **LQ_7023863744.pdf**: Liquidación/valoración (detalle de valores cobrados).
+- **RC_7023863744.pdf**: Recibo/confirmación de pago.
+
+## Notas
+- Estos archivos corresponden al paquete con tracking **7023863744**.
+- La evidencia complementaria de rastreo se encuentra en la carpeta principal del envío (rastreos DHL).
