@@ -1,0 +1,7 @@
+Record=TopLevelDocument|FileName=ups_lead_acid_electgpl_v1.0.SchDoc|SheetNumber= 
+Record=SheetSymbol|SourceDocument=ups_lead_acid_electgpl_v1.0.SchDoc|Designator=Battery Protect|SchDesignator=Battery Protect|FileName=battery_protect.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=battery_protect.SchDoc|DesignItemId= |SourceLibraryName=battery_protect.SchDoc|ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ups_lead_acid_electgpl_v1.0.SchDoc|Designator=Buck|SchDesignator=Buck|FileName=buck.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=buck.SchDoc|DesignItemId= |SourceLibraryName=buck.SchDoc|ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ups_lead_acid_electgpl_v1.0.SchDoc|Designator=ByPass|SchDesignator=ByPass|FileName=bypass.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=bypass.SchDoc|DesignItemId= |SourceLibraryName=bypass.SchDoc|ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ups_lead_acid_electgpl_v1.0.SchDoc|Designator=Charge|SchDesignator=Charge|FileName=charge.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=charge.SchDoc|DesignItemId= |SourceLibraryName=charge.SchDoc|ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=ups_lead_acid_electgpl_v1.0.SchDoc|FileName=input_protect.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=ups_lead_acid_electgpl_v1.0.SchDoc|FileName=voltmeter.SchDoc|SheetNumber= 
